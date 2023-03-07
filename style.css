@@ -1,0 +1,27 @@
+#header {
+    display: block;
+}
+
+#logo {
+    display: inline-block;
+    float: left;
+    border: solid thin black;
+    padding: 5px;
+}
+
+#navbar {
+    display: inline-block;
+    float: right;
+}
+
+#navbar p {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-self: right;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
